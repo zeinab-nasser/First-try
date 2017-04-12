@@ -1,0 +1,153 @@
+body
+{background-color:#ffffff}
+.container{width:1170px;margin:auto}
+.slide{background-color:darkslategray}
+.header .slide
+{
+    background-image:url('slide.jpg');height:1000px;background-size:cover
+}
+.header .slide .info
+{ 
+    padding-top:400px;text-align:center;color:#ffffff;text-transform:uppercase;margin:0 auto;
+}
+.header .slide .info h
+{
+    border-top:2px solid #ffffff;border-bottom:2px solid #ffffff;padding-top:20px;padding-bottom:20px;font-weight:bold;font-size: 50px
+}
+.header .slide .info button
+{background:none;border:1px solid #ffffff;padding:15px 30px;
+    text-transform:uppercase;color:#ffffff;margin:50px;font-size:bold}
+
+.navigation{
+    background-color:#252e30;
+    overflow:hidden;
+    color:#ffffff;
+    text-transform:uppercase;
+}
+.navigation h2{float:left}
+.navigation h2:first-letter
+{background-color:#4b5456;border-radius:0px;margin-right:20px;padding:5px 10px;
+}
+.navigation h2 span
+{color:#2ecc71}
+.navigation ul
+{float:right;
+    list-style:none;
+    overflow:hidden;
+    padding-left:0}
+.navigation ul li{float:left;padding:10px}
+.navigation ul li a{color:white;text-decoration:none;}
+.navigation ul li a:hover{color:#2ecc71}
+
+/*end header*/
+
+.features{height:250px;background-color:white}
+.features .column{float:left;width:33.33333%;padding-top:40px;padding-bottom:40px}
+.features h2{color:#566366;text-transform:uppercase}
+.features p{color:#919191;line-height:1.5;}
+/*end features*/
+
+.about{background-color:#f2f2f1;overflow:hidden}
+.about .image{float:left;width:40%}
+.about .image img{width:100%;}
+.about .me{float:left;width:60%}
+.about .me h2{color:#566366;text-transform:uppercase;margin-left:80px;margin-top:90px;margin-bottom:40px}
+.about .me .pp{color:#919191;margin-left:80px;margin-bottom:30px;}
+.about .me .hobbies{overflow:hidden;margin-left:80px}
+.about .me .hobbies >div{float:left;width:50%;height:100px;overflow:hidden}
+.about .me .hobbies .icon{float:left;width:20%}
+.about .me .hobbies img{height:50px;width:50px}
+.about .me .hobbies .text{float:left;width:80%}
+.about .me .hobbies span{font-weight:bold;color:#566366;text-transform:uppercase}
+.about .me .hobbies p{color:#919191;margin-bottom:90px}
+/*end about*/
+.skills{overflow:hidden;padding-bottom:80px}
+.skills .myskills{width:50%;float:left}
+.skills .myskills h2{color:#566366;text-transform:uppercase;margin-top:80px}
+.skills .myskills p{color:#919191;margin-top:40px;line-height: 1.5}
+.skills .progress{width:50%;float:left;margin-top:100px}
+.skills .progress h3{text-transform:uppercase;color:#566366}
+.skills .progress .sp{background-color:#f2f2f1;height:20px}
+.skills .progress span{display:block;background-color:#2ecc71;height:20px;text-align:right;color:white}
+.skills .myskills button{border:2px solid #2ecc71;color:#2ecc71;background-color:white;padding:10px 20px;font-weight:bold;margin-bottom:80px}
+/*end skills*/
+
+.resume{background-color:#f2f2f1;text-align:center;padding-top:70px;padding-bottom:70px}
+.resume h2{color:#566366;text-transform:uppercase;padding-bottom:10px}
+.resume p{color:#919191;padding-bottom:15px}
+.resume button{border:2px solid #2ecc71;color:#2ecc71;background-color:white;padding:15px;font-weight:bold;text-transform:uppercase}
+/*end resume*/
+
+.education{overflow:hidden}
+.education .my-education,.education .my{width:50%;float:left}
+.education .my-education h2{padding-top:50px;padding-bottom:15px}
+.education .my .hh{padding-top:113px}
+.education .my .hhh{padding-top:40px}
+.education .my-education h2,.education .my h2{color:#566366;text-transform:uppercase}
+.education .my-education p{padding-bottom:10px}
+.education .my-education p,.education .my p{color:#919191}
+.education .my .graphic,.education .my .cit{width:100%}
+.education .my .myp{font-weight:bold;padding-bottom:20px}
+.education .my span{background-color:#2ecc71;color:white;padding:10px}
+.education .my hr{margin-top:40px;background-color:#f2f2f1}
+.education .my .phr{margin-bottom:50px}
+/*end*/
+
+.work{overflow:hidden}
+.work h2{color:#566366;text-transform:uppercase}
+.work p{color:#919191}
+.work .Exper,.work .design{width:50%;float:left}
+.work .Exper{margin-top:50px}
+.work .Exper p{margin:30px 0}
+.work .design{margin-top:100px}
+.work .design .larg{padding-bottom:40px}
+.work .design hr{margin-top:40px;background-color:#f2f2f1}
+.work .design span{background-color:#2ecc71;color:white;padding:10px}
+.work .design .lead,.work .design .junior,.work .design .web{width:100%}
+/*end*/
+
+.john{text-align:center;background-color:#f2f2f1;margin:40px 0;padding:60px 0;
+      overflow:hidden}
+.john .quote{font-style:oblique;color:#919191;font-weight:100}
+.john span{color:#566366;text-transform:uppercase;font-weight:bold;padding-top:50px}
+.john ul{list-style:none;text-align:center;padding-left:0;
+         margin-top:30px}
+.john ul li{border:1px solid #2ecc71;display:inline-block;width:10px;height:10px;
+    cursor: pointer;border-radius:50%}
+.john ul li.active,.john ul li:hover{background-color:#2ecc71}
+
+/*end*/
+
+.port{overflow:hidden;margin:80px 0}
+.port .dis{text-align:center}
+.port h2{color:#566366;text-transform:uppercase}
+.port p{color:#919191;margin-top:30px}
+.port .image{float:left;width:33.3333%;margin-bottom:35px;padding-right:0}
+/*end*/
+
+.contact{background-color:#252e30;overflow:hidden;padding:60px 0}
+.contact .discription,.contact .form{width:50%;float:left}
+.contact .discription h2{color:white;text-transform:uppercase;padding-bottom:15px}
+.contact .discription p,.contact .discription b{color:#919191}
+.contact .discription span{color:white;padding-bottom:20px}
+.contact .discription b{margin-left:40px}
+
+.contact .form .formm{margin-top:50px}
+.contact .form .formm label{color:white;display:block}
+.contact .form .formm input,.contact .form .formm textarea
+{background-color:#4b5456;border:1px solid #191f21;
+width:400px;height:40px;margin-bottom:20px;margin-top:10px;display:block;color:white}
+.contact .form .formm button{background-color:#191f21;color:white;padding:10px 20px;
+                             margin-top:10px;text-transform:uppercase;
+                             border:1px solid #191f21;display:block}
+.contact .form .formm textarea{height:200px;border:1px solid #191f21;display:block}
+/*end*/
+
+.footer{background-color:#191f21;text-align:center;margin-top:0;padding-top:25px;
+        padding-bottom:25px}
+.footer p{display:block;color:#4b5456;padding-bottom:10px}
+.footer ul{list-style:none;text-align:center;padding-left:0}
+.footer ul li{display:inline-block}
+.footer ul li img{height:30px;width:30px}
+
+
